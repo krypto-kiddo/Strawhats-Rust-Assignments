@@ -2,7 +2,7 @@ use rand::{self, Rng};
 fn main() {
     let sky = vec!["cloudy", "sunny", "rainy"];
     let temperature = vec!["warm", "cold", "freezing"];
-    let x = (sky[rand::thread_rng().gen_range(0..sky.len())],      temperature[rand::thread_rng().gen_range(0..temperature.len())]);
+    let x = ( sky[rand::thread_rng().gen_range(0..sky.len())]   ,  temperature[rand::thread_rng().gen_range(0..temperature.len())]);
 
      // TODO Match the sky and temperature and print the appropriate message
      /*
