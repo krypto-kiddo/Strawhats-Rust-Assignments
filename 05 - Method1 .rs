@@ -1,3 +1,5 @@
+// In this instead of referencing the variable we can refer to the pointer instead everytime
+
 fn print_country(ptr: &String) {
     println!("This is {}", ptr);
 }
